@@ -19,6 +19,7 @@ It showcases real-world SQL skills including:
 * Subqueries & CTEs
 * Aggregations & CASE expressions
 
+---
 USE Test_DB;
 GO
 
