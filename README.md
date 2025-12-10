@@ -27,3 +27,7 @@ SELECT @@SERVERNAME;
 SELECT * 
 FROM INFORMATION_SCHEMA.TABLES 
 WHERE TABLE_NAME = 'Customer_shopping_behaviour';
+```
+* Confirms you're connected to the right server.
+* Ensures the dataset exists before running analysis.
+* Prevents running queries on the wrong environment 
