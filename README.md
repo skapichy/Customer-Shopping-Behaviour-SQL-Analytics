@@ -20,11 +20,10 @@ It showcases real-world SQL skills including:
 * Aggregations & CASE expressions
 
 ---
+```TSQL
 USE Test_DB;
 GO
-
 SELECT @@SERVERNAME;
-
 SELECT * 
 FROM INFORMATION_SCHEMA.TABLES 
 WHERE TABLE_NAME = 'Customer_shopping_behaviour';
